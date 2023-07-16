@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Sir Gobbles-a-lot",
+  "description": "Does Sir Gobbles-a-lot like this page?",
+  "version": "1.0",
+
+  "icons": {
+    "48": "icons/icon-turkey-48.svg"
+  },
+
+  "permissions": [
+    "activeTab",
+    "contextMenus"
+  ],
+
+  "background": {
+    "scripts": ["background_scripts/background.js"]
+  } 
+}
